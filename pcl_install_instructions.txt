@@ -1,0 +1,62 @@
+Installing PCL 1.8 with cython 0.25.2 and python-pcl v0.3.0rc1  for ROS kinetic 
+
+1- pip install Cython==0.25.2
+
+2- Download PCL 1.8 (instead of using system PCL 1.7)
+  cd ~/src
+
+  wget https://github.com/PointCloudLibrary/pcl/archive/pcl-1.8.0.tar.gz
+
+  tar -xvzf pcl-1.8.0.tar.gz
+
+3. Configure PCL to compile with C++ 2011 support #probably unnecessary
+We need to compile pcl with c++ 2011 support because we're going to be compiling rdbgslam with c++ 2011 support and if we don't, rgbdslam will segfault on startup.
+the PCL 1.7 library that comes installed with ubuntu 16.04 is not compiled with c++ 2011 support.
+
+  cd ~/src/pcl-pcl-1.8.0
+
+  vi CMakeLists.txt
+
+add the following to line #146 of CMakeLists.txt (right after endif()):
+
+  SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+save the file and exit (:wq)
+
+4. Compile and install PCL
+This will take forever - 2.5gig ram was insufficient for the task in virtualbox. 4.5gig works.
+
+  mkdir build
+
+  cd build
+
+  cmake ../
+
+To ensure that c++ 2011 support is being compiled into PCL, run:
+
+make VERBOSE=1
+and then copy some compiler output to a text file and search it to see if it contains "-stdc++11"
+If you can't find -stdc++11 in the output, then you probably inserted it into the wrong place in the CMakeLists.txt
+perhaps press ctrl-c and restart the build with just 'make' to clean up the output
+
+  sudo make install
+
+5- Download tar.gz for python pcl and extract it
+https://github.com/strawlab/python-pcl/releases/tag/v0.3.0rc1
+
+cd into the python-pcl directory 
+
+  python setup.py build_ext -i
+  
+  python setup.py install
+  
+  ldconfig
+  
+6- Open your .bashrc file and add
+export PYTHONPATH=$PYTHONPATH:<the path you installed pcl to>
+
+7- Test 
+python
+> import pcl
+> p = pcl.PointCloud()
+
