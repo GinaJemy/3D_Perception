@@ -53,10 +53,48 @@ CMAKE_BINARY_DIR = /home/gina/robot_ws/build
 # Include the progress variables for this target.
 include RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py.dir/progress.make
 
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py
 
+
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG pr2_robot/DetectedObject"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg
+
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG pr2_robot/DetectedObjectsArray"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg
+
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV pr2_robot/GetFloatArrayFeature"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv
+
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV pr2_robot/GetNormals"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv
 
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv
@@ -65,8 +103,8 @@ RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py: /opt/ros/kinetic/share/std_msgs/msg/Int32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV pr2_robot/Grasp"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV pr2_robot/Grasp"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv
 
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv
@@ -75,18 +113,37 @@ RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py: /
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py: /opt/ros/kinetic/share/std_msgs/msg/Int32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV pr2_robot/PickPlace"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python code from SRV pr2_robot/PickPlace"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv
+
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python msg __init__.py for pr2_robot"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg --initpy
 
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py
+/home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py
 /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python srv __init__.py for pr2_robot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Python srv __init__.py for pr2_robot"
 	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv --initpy
 
 pr2_robot_generate_messages_py: RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py
+pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObject.py
+pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/_DetectedObjectsArray.py
+pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetFloatArrayFeature.py
+pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_GetNormals.py
 pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_Grasp.py
 pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/_PickPlace.py
+pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/msg/__init__.py
 pr2_robot_generate_messages_py: /home/gina/robot_ws/devel/lib/python2.7/dist-packages/pr2_robot/srv/__init__.py
 pr2_robot_generate_messages_py: RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_py.dir/build.make
 

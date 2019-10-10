@@ -33,9 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr2_robot/msg" TYPE FILE FILES
+    "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg"
+    "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg"
+    )
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pr2_robot/srv" TYPE FILE FILES
     "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv"
     "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv"
+    "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv"
+    "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv"
     )
 endif()
 

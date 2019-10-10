@@ -53,9 +53,46 @@ CMAKE_BINARY_DIR = /home/gina/robot_ws/build
 # Include the progress variables for this target.
 include RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp.dir/progress.make
 
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp
 
+
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from pr2_robot/DetectedObject.msg"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg
+
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from pr2_robot/DetectedObjectsArray.msg"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg
+
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from pr2_robot/GetFloatArrayFeature.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv
+
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from pr2_robot/GetNormals.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv
 
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv
@@ -64,8 +101,8 @@ RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp:
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp: /opt/ros/kinetic/share/std_msgs/msg/Int32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from pr2_robot/Grasp.srv"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from pr2_robot/Grasp.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv
 
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp: /opt/ros/kinetic/lib/genlisp/gen_lisp.py
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv
@@ -74,10 +111,14 @@ RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp:
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp: /opt/ros/kinetic/share/std_msgs/msg/Int32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from pr2_robot/PickPlace.srv"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from pr2_robot/PickPlace.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv
 
 pr2_robot_generate_messages_lisp: RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp
+pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObject.lisp
+pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/msg/DetectedObjectsArray.lisp
+pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetFloatArrayFeature.lisp
+pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/GetNormals.lisp
 pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/Grasp.lisp
 pr2_robot_generate_messages_lisp: /home/gina/robot_ws/devel/share/common-lisp/ros/pr2_robot/srv/PickPlace.lisp
 pr2_robot_generate_messages_lisp: RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_lisp.dir/build.make

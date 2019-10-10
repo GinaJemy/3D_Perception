@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pr2_robot_generate_messages_cpp"
+  "/home/gina/robot_ws/devel/include/pr2_robot/DetectedObject.h"
+  "/home/gina/robot_ws/devel/include/pr2_robot/DetectedObjectsArray.h"
+  "/home/gina/robot_ws/devel/include/pr2_robot/GetFloatArrayFeature.h"
+  "/home/gina/robot_ws/devel/include/pr2_robot/GetNormals.h"
   "/home/gina/robot_ws/devel/include/pr2_robot/Grasp.h"
   "/home/gina/robot_ws/devel/include/pr2_robot/PickPlace.h"
 )

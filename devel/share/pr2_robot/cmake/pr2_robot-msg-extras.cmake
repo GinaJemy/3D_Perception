@@ -1,2 +1,2 @@
-set(pr2_robot_MESSAGE_FILES "")
-set(pr2_robot_SERVICE_FILES "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv;/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv")
+set(pr2_robot_MESSAGE_FILES "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg;/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg")
+set(pr2_robot_SERVICE_FILES "/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv;/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv;/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv;/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv")

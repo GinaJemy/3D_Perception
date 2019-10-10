@@ -53,10 +53,47 @@ CMAKE_BINARY_DIR = /home/gina/robot_ws/build
 # Include the progress variables for this target.
 include RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus.dir/progress.make
 
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l
+RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l
 RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/manifest.l
 
+
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from pr2_robot/DetectedObject.msg"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg
+
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObject.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from pr2_robot/DetectedObjectsArray.msg"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg/DetectedObjectsArray.msg -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg
+
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from pr2_robot/GetFloatArrayFeature.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetFloatArrayFeature.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv
+
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointField.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l: /opt/ros/kinetic/share/sensor_msgs/msg/PointCloud2.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp code from pr2_robot/GetNormals.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/GetNormals.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv
 
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv
@@ -65,8 +102,8 @@ RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: 
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l: /opt/ros/kinetic/share/std_msgs/msg/Int32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from pr2_robot/Grasp.srv"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating EusLisp code from pr2_robot/Grasp.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/Grasp.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv
 
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l: /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv
@@ -75,14 +112,18 @@ RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus: 
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l: /opt/ros/kinetic/share/std_msgs/msg/String.msg
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l: /opt/ros/kinetic/share/std_msgs/msg/Int32.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from pr2_robot/PickPlace.srv"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating EusLisp code from pr2_robot/PickPlace.srv"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/srv/PickPlace.srv -Ipr2_robot:/home/gina/robot_ws/src/RoboND-Perception-Project/pr2_robot/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p pr2_robot -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv
 
 /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for pr2_robot"
-	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot pr2_robot std_msgs geometry_msgs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/gina/robot_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating EusLisp manifest code for pr2_robot"
+	cd /home/gina/robot_ws/build/RoboND-Perception-Project/pr2_robot && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot pr2_robot std_msgs geometry_msgs sensor_msgs
 
 pr2_robot_generate_messages_eus: RoboND-Perception-Project/pr2_robot/CMakeFiles/pr2_robot_generate_messages_eus
+pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObject.l
+pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/msg/DetectedObjectsArray.l
+pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetFloatArrayFeature.l
+pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/GetNormals.l
 pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/Grasp.l
 pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/srv/PickPlace.l
 pr2_robot_generate_messages_eus: /home/gina/robot_ws/devel/share/roseus/ros/pr2_robot/manifest.l
