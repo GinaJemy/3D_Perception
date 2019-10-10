@@ -1,6 +1,6 @@
-# ros
-This project attempts to use perception to locate and classify objects for a robotic arm to pick and place.
-It is copied from https://github.com/hortovanyi/RoboND-Perception-Project 
+# 3D Perception
+## This project attempts to use perception to locate and classify objects for a robotic arm to pick and place.
+## It is copied from https://github.com/hortovanyi/RoboND-Perception-Project 
 
 Before using the perception pipeline you must install 
           sklearn and matplotlib
